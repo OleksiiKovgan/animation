@@ -1,0 +1,28 @@
+﻿marquee {
+    animation-name: marquee;
+    font-size: 35px;
+    color: orangered;
+}
+
+@keyframes marquee {
+    0% {
+        margin-left: 0%;
+    }
+
+    100% {
+        margin-left: 100%;
+    }
+}
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: cyan;
+}
+
+#evil-button {
+    position: absolute;
+    white-space: nowrap;
+    font-size: 20px;
+}
